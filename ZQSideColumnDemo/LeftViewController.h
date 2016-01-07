@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeftViewController.h
 //  ZQSideColumnDemo
 //
 //  Created by zq on 16/1/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LeftViewController : UIViewController
 
 @end
-

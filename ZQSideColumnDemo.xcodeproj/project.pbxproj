@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		1B6318A51C3E5E500074187F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318A41C3E5E500074187F /* main.m */; };
 		1B6318A81C3E5E500074187F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318A71C3E5E500074187F /* AppDelegate.m */; };
-		1B6318AB1C3E5E500074187F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318AA1C3E5E500074187F /* ViewController.m */; };
+		1B6318AB1C3E5E500074187F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318AA1C3E5E500074187F /* RootViewController.m */; };
 		1B6318AE1C3E5E500074187F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6318AC1C3E5E500074187F /* Main.storyboard */; };
 		1B6318B01C3E5E500074187F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6318AF1C3E5E500074187F /* Assets.xcassets */; };
 		1B6318B31C3E5E500074187F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6318B11C3E5E500074187F /* LaunchScreen.storyboard */; };
 		1B6318BE1C3E5E500074187F /* ZQSideColumnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318BD1C3E5E500074187F /* ZQSideColumnDemoTests.m */; };
 		1B6318C91C3E5E500074187F /* ZQSideColumnDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318C81C3E5E500074187F /* ZQSideColumnDemoUITests.m */; };
+		1B6318D91C3E5E940074187F /* ZQSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318D81C3E5E940074187F /* ZQSideViewController.m */; };
+		1B6318DC1C3E5EAD0074187F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6318DB1C3E5EAD0074187F /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		1B6318A41C3E5E500074187F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B6318A61C3E5E500074187F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B6318A71C3E5E500074187F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B6318A91C3E5E500074187F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B6318AA1C3E5E500074187F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B6318A91C3E5E500074187F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1B6318AA1C3E5E500074187F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1B6318AD1C3E5E500074187F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B6318AF1C3E5E500074187F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B6318B21C3E5E500074187F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		1B6318C41C3E5E500074187F /* ZQSideColumnDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQSideColumnDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6318C81C3E5E500074187F /* ZQSideColumnDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQSideColumnDemoUITests.m; sourceTree = "<group>"; };
 		1B6318CA1C3E5E500074187F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6318D71C3E5E940074187F /* ZQSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSideViewController.h; sourceTree = "<group>"; };
+		1B6318D81C3E5E940074187F /* ZQSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSideViewController.m; sourceTree = "<group>"; };
+		1B6318DA1C3E5EAD0074187F /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		1B6318DB1C3E5EAD0074187F /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,11 @@
 			children = (
 				1B6318A61C3E5E500074187F /* AppDelegate.h */,
 				1B6318A71C3E5E500074187F /* AppDelegate.m */,
-				1B6318A91C3E5E500074187F /* ViewController.h */,
-				1B6318AA1C3E5E500074187F /* ViewController.m */,
+				1B6318A91C3E5E500074187F /* RootViewController.h */,
+				1B6318AA1C3E5E500074187F /* RootViewController.m */,
+				1B6318DA1C3E5EAD0074187F /* LeftViewController.h */,
+				1B6318DB1C3E5EAD0074187F /* LeftViewController.m */,
+				1B6318D61C3E5E940074187F /* ZQSideViewController */,
 				1B6318AC1C3E5E500074187F /* Main.storyboard */,
 				1B6318AF1C3E5E500074187F /* Assets.xcassets */,
 				1B6318B11C3E5E500074187F /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				1B6318CA1C3E5E500074187F /* Info.plist */,
 			);
 			path = ZQSideColumnDemoUITests;
+			sourceTree = "<group>";
+		};
+		1B6318D61C3E5E940074187F /* ZQSideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B6318D71C3E5E940074187F /* ZQSideViewController.h */,
+				1B6318D81C3E5E940074187F /* ZQSideViewController.m */,
+			);
+			path = ZQSideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6318AB1C3E5E500074187F /* ViewController.m in Sources */,
+				1B6318D91C3E5E940074187F /* ZQSideViewController.m in Sources */,
+				1B6318DC1C3E5EAD0074187F /* LeftViewController.m in Sources */,
+				1B6318AB1C3E5E500074187F /* RootViewController.m in Sources */,
 				1B6318A81C3E5E500074187F /* AppDelegate.m in Sources */,
 				1B6318A51C3E5E500074187F /* main.m in Sources */,
 			);
